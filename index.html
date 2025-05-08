@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Concepts Explained</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <h1>CSS Interview Concepts with Examples</h1>
+
+  <!-- Question 1 -->
+  <section>
+    <h2>1. What is box-sizing?</h2>
+    <p>The box-sizing property defines how the total width and height of an element is calculated:</p>
+    <ul>
+      <li><strong>content-box</strong> (default): width and height include only content, padding and border are added outside.</li>
+      <li><strong>border-box</strong>: width and height include content, padding, and border.</li>
+    </ul>
+    <div class="box-model">Box Sizing Demo</div>
+  </section>
+
+  <!-- Question 2 -->
+  <section>
+    <h2>2. What is animation-delay?</h2>
+    <p>The <code>animation-delay</code> property defines how long to wait before starting the animation on an element.</p>
+    <div class="animated-box">Animated Box</div>
+  </section>
+
+  <!-- Question 3 -->
+  <section>
+    <h2>3. Which property do you use to merge cells vertically in a grid?</h2>
+    <p>Use <code>grid-row: span n;</code> to make an element span across multiple rows.</p>
+  </section>
+
+  <!-- Question 4 -->
+  <section>
+    <h2>4. Which property do you use to merge cells horizontally in a grid?</h2>
+    <p>Use <code>grid-column: span n;</code> to make an element span across multiple columns.</p>
+
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item vertical-span">2<br>Row Span</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item horizontal-span">4<br>Column Span</div>
+      <div class="grid-item">5</div>
+    </div>
+  </section>
+
+  <!-- Question 5 -->
+  <section>
+    <h2>5. Explain the CSS Box Model</h2>
+    <p>The CSS box model consists of:</p>
+    <ul>
+      <li><strong>Content</strong>: The actual text or image</li>
+      <li><strong>Padding</strong>: Space around the content</li>
+      <li><strong>Border</strong>: Line around the padding</li>
+      <li><strong>Margin</strong>: Space outside the border</li>
+    </ul>
+    <div class="box-model">Box Model Visual</div>
+  </section>
+
+  <!-- Question 6 -->
+  <section>
+    <h2>6. What is the difference between display: none and visibility: hidden?</h2>
+    <ul>
+      <li><strong>display: none</strong> removes the element from layout and does not reserve space.</li>
+      <li><strong>visibility: hidden</strong> hides the element but still takes up space in the layout.</li>
+    </ul>
+
+    <div class="visibility-demo">
+      <div class="visible-box">Visible</div>
+      <div class="hidden-box">Hidden</div>
+      <div class="none-box">None</div>
+    </div>
+  </section>
+
+</body>
+</html>
